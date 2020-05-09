@@ -4,7 +4,7 @@ from datetime import date
 from bs4 import BeautifulSoup as ny_bs
 
 """
-Dibuat oleh Njank Yuti dengan ilmu pengetahuan bumi dan langit..
+Dibuat oleh Mrs.lubiss dengan ilmu pengetahuan bumi dan langit..
 """
 
 try:
