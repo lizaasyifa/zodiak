@@ -4,8 +4,7 @@ from datetime import date
 from bs4 import BeautifulSoup as ny_bs
 
 """
-Dibuat oleh Njank Yuti dengan ilmu pengetahuan bumi dan langit
-Recode kontolnya pecah!
+Dibuat oleh Njank Yuti dengan ilmu pengetahuan bumi dan langit..
 """
 
 try:
@@ -65,19 +64,8 @@ Silahkan pilih Zodiakmu untuk melihat ramalan hari ini
 		print('''
 
 Info script:
-Script dibuat oleh NjankYuti.
-Untuk melihat ramalan bintang/zodiak hari ini menurut peta alam semesta pada lokasi tertentu di waktu tertentu.
-Ini dipakai untuk memprediksi kejadian berdasarkan asumsi bahwa ada hubungan antara fenomena benda langit dengan kejadian yang dialami manusia.
-
-
-Link author:
-https://github.com/N74NK
-https://facebook.com/njnk.xnxx
-https://facebook.com/njnk.real
-https://instagram.com/n74nk420
-https://youtube.com/NjankSoekamti
-https://solozstring.blogspot.com
-https://n74nk.github.io
+Script dibuat oleh Mrs.lubiss.
+Sssssst...jangan ribut !!!!!
 
 		''')
 	elif ny_zod0 == 'x' or ny_zod0 == 'X':
@@ -99,7 +87,7 @@ def ny_menu1(ny_zod1):
 		Kepo banget sih lu goblog
 		sampe stalking ke bawah
 		takut logger?
-		ini gak need login kontol
+	
 		'''
 		__ny = ny_contol.text.replace('(adsbygoogle = window.adsbygoogle || []).push({});','').replace('''\n''','').replace('. ','''.\n''')
 		print("\nRamalan zodiak "+ny_zod1+" hari ini:\n"+__ny)
